@@ -102,7 +102,7 @@ Happy mining!
 
 ### Validator quick start
 
-- Runs on nearly any hardware (VPS, laptop, even small cloud instances). Low CPU/memory; no GPU required.
+- Runs on nearly any hardware. Low CPU/memory; no GPU required.
 - Uses the public API at `http://65.109.75.37:8000` by default (configurable) and the Bittensor chain to set weights.
 
 Requirements (Ubuntu/Debian minimal):
@@ -114,7 +114,7 @@ Install:
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -U pip wheel
-pip install bittensor httpx  # torch optional
+pip install bittensor httpx torch
 ```
 
 Run the validator (uses defaults from `config.py`):
