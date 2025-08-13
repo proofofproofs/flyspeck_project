@@ -129,7 +129,7 @@ What it does:
 - If no proofs were solved in the window, it assigns 100% weight to UID 0 by default.
 
 Common options:
-- `--api-base` (default `http://65.109.75.37:8000`) – proof server API
+- `--api-base` – proof server API
 - `--hours` (default `24`) – lookback window for recent proofs
 - `--interval-blocks` (default `360`) – how often to set weights
 - `--netuid` (default `125`) – subnet to operate on
